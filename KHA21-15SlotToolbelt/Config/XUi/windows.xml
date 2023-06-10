@@ -1,0 +1,35 @@
+﻿<configs>
+	<set xpath="/windows/window[@name='windowToolbelt']">
+		<rect>
+			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" on_press="true" />
+			
+			<rect pos="3,-3" controller="Toolbelt">
+				<grid depth="10" name="inventory" rows="1" cols="15" pos="0,0" cell_width="75" cell_height="75" repeat_content="true">
+					<item_stack name="0"/>
+				</grid>
+				<grid depth="10" name="inventory2" rows="1" cols="30" pos="0,82" cell_width="75" cell_height="75" repeat_content="true" visible="{secondrow}">
+					<item_stack name="0"/>
+				</grid>
+			</rect>
+
+			<sprite depth="1" pos="0,6" height="8" width="1126" color="[mediumGrey]" sprite="menu_empty2px" globalopacity="false" type="sliced" />
+			<sprite depth="9" pos="0,6" height="8" width="1127" color="[black]" sprite="menu_empty2px" globalopacity="false" type="sliced" fillcenter="false" />
+			<sprite depth="4" pos="0,6" height="8" width="1125" color="{xpcolor}" globalopacity="false" type="filled" fill="{xp}" />
+
+			<rect pos="0,-77" width="565" height="8" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
+				<sprite depth="1" color="[mediumGrey]" sprite="menu_empty2px" globalopacity="false" type="sliced" />
+				<sprite depth="9" color="[black]" sprite="menu_empty2px" globalopacity="false" type="sliced" fillcenter="false" />
+
+				<filledsprite depth="5" pos="1,0" width="563" name="BarContent" color="0,255,54,128" globalopacity="false" type="filled" fill="0"  />
+			</rect>
+
+			<rect pos="563,-77" width="564" height="8" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
+				<sprite depth="1" color="[mediumGrey]" sprite="menu_empty2px" globalopacity="false" type="sliced" />
+				<sprite depth="9" color="[black]" sprite="menu_empty2px" globalopacity="false" type="sliced" fillcenter="false" />
+
+				<filledsprite depth="5" pos="1,0" width="563" name="BarContent" color="0,54,255,160" globalopacity="false" type="filled" fill="0"  />
+			</rect>
+		</rect>
+	</set>
+	<set xpath="/windows/window[@name='windowToolbelt']/@pos">-575, 92</set>
+</configs>

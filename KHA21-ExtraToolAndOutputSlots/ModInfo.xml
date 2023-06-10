@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+ 	<Name value="ExtraToolOutputSlots" />
+	<DisplayName value="Extra Tool And Output Slots" />
+	<Description value="Allows up to 6 tool slots and 12 output slots" />
+	<Author value="KhaineGB" />
+	<Version value="1.0.0.1" />
+	<Website value="" />
+</xml>

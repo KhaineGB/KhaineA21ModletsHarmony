@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  	<Name value="VehicleDamagePatch" />
+	<DisplayName value="Vehicle Damage Patch" />
+	<Description value="Increases the damage cap on vehicles hitting zombies" />
+	<Author value="KhaineGB" />
+	<Version value="1.0.0.1" />
+	<Website value="" />
+</xml>

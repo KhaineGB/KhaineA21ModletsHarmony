@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+   	<Name value="VehicleSoundFix" />
+	<DisplayName value="Vehicle Sound Fix" />
+	<Description value="Stops the annoying sound with custom vehicles." />
+	<Author value="KhaineGB" />
+	<Version value="1.0.0.1" />
+	<Website value="" />
+</xml>

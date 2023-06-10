@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  	<Name value="LargerFOV" />
+	<DisplayName value="Larger FOV" />
+	<Description value="Increases max FOV size to 150" />
+	<Author value="KhaineGB" />
+	<Version value="1.0.0.1" />
+	<Website value="" />
+</xml>
