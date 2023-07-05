@@ -1,0 +1,21 @@
+<configs>
+	<append xpath="/blocks">
+		<!-- Wandering Horde Config -->
+  		<block name="WHConfigBlock">
+			<property name="Extends" value="terrDesertGround"/>
+
+			<property class="WHConfigLoad">
+				<property name="Logging" value="false"/>
+				<!-- This mod generates a random number based on what the user specifies below. WHHoursMin is the minimum value. WHHoursMax is the max value. 
+					 So WHHoursMin=4 and WHHoursMax=8 means the wandering horde can occur every 4 to 8 hours -->
+				<property name="WHHoursMin" value="6" />
+				<property name="WHHoursMax" value="12" />
+				<!-- This mod generates a random number based on what the user specifies below. WHZombiesMin is the minimum value. WHZombiesMax is the max value. 
+					 So WHZombiesMin=10 and WHZombiesMax=30 means the wandering horde can have 10 to 30 zombies. It is recommended not to exceed 50 as the max 
+					 zombies for FPS reasons -->				
+				<property name="WHZombiesMin" value="20" />
+				<property name="WHZombiesMax" value="40" />
+			</property>
+		</block>
+	</append>
+</configs>

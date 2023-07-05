@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="WanderingHordeFrequencyVanilla" />
+	<DisplayName value="Wandering Horde Frequency - Vanilla Version" />
+	<Description value="Customizable wandering horde amounts for vanilla." />
+	<Author value="KhaineGB" />
+	<Version value="1.1.0.1" />
+	<Website value="" />
+</xml>
