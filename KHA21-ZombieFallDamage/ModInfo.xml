@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="ZombieFallDamage" />
+	<DisplayName value="Zombie Fall Damage" />
+	<Description value="Patches EntityHuman so zombies and bandits can take an appropriate amount of fall damage." />
+	<Author value="KhaineGB" />
+	<Version value="1.1.0.1" />
+	<Website value="" />
+</xml>
